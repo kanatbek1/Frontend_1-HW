@@ -1,0 +1,23 @@
+
+h1,h2{
+    color: #1818ce;    text-align: center;
+}
+i{
+    color: #1818d3;
+}
+b{
+    color: #b80a0a;
+}
+.par,.par2,.par3,.par4,.par5{
+    width: 400px;
+}
+p{
+    line-height: 60px;
+    text-indent: 60px;
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-right:300px;
+    text-align: center;
+    display: block;
+
+}
