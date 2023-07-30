@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Brella</title>
+	<link rel="stylesheet" href="fonts/Roboto/stylesheet.css">
+	<link rel="stylesheet" href="fonts/Raleway/stylesheet.css">
+	<link rel="stylesheet" href="css/core.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="menu">
+			<div class="container"></div>
+		</header>
+		<section class="home">
+			<div class="container">
+				<div class="home__inner">
+					<h1>Give your team peace of mind with supplemental health insurance from Brella.</h1>
+					<span>I'm wondering...</span>
+				</div>
+			</div>
+		</section>
+		<section class="info">
+			<div class="container">
+				<div class="info__inner">
+					<div class="info__item">
+						<img src="images/icon-umbrella.svg" alt="Umbrella">
+						<div>
+							<h6>More coverage</h6>
+							<p>Brella covers 13,000+ injuries and illnesses from concussions to cancer.</p>
+						</div>
+					</div>
+					<div class="info__item">
+						<img src="images/icon-check.svg" alt="Check">
+						<div>
+							<h6>Less hassle</h6>
+							<p>One easy-to-manage plan with paperless install and online admin tools.</p>
+						</div>
+					</div>
+					<div class="info__item">
+						<img src="images/icon-wallet.svg" alt="Wallet">
+						<div>
+							<h6>Faster benefits</h6>
+							<p>Brella pays claims in hours–not weeks so your people can rest easy.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="plan">
+			<div class="container">
+				<div class="plan__inner">
+					<div class="left">
+						<span class="plan__caption caption">Why Brella?</span>
+						<h2 class="plan__title title">Today, any health insurance deductible can feel like a high deductible.</h2>
+						<p class="plan__text text">Brella's supplemental health plan enhances your health benefit strategy to ensure that health hardships don't become financial burdens.</p>
+						<a href="">See our plan</a>
+					</div>
+					<div class="right">
+						<img src="images/image-plan.svg" alt="Image">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="issues">
+			<div class="container">
+				<div class="issues__inner">
+					<div class="left">
+						<span class="issues__caption caption">one plan, more coverage</span>
+						<h2 class="issues__title title">No one can predict which health issues might come their way.</h2>
+						<p class="issues__text text">Our broad supplemental coverage gets rid of the guesswork and puts cash in your team’s pockets for most conditions that require urgent medical attention.</p>
+					</div>
+					<div class="right">
+						<img src="images/image-issues.png" alt="Image">
+					</div>
+					<div class="bottom">
+						<div class="issues__bottom">
+							<h2 class="issues__bottom-number">5K</h2>
+							<p class="issues__bottom-text">covered injuries and illnesses from fractures and appendicitis to cancer</p>
+						</div>
+						<div class="issues__bottom">
+							<h2 class="issues__bottom-number">1X</h2>
+							<p class="issues__bottom-text">more covered conditions than Accident and Critical Illness plans—combined</p>
+						</div>
+						<div class="issues__bottom">
+							<h2 class="issues__bottom-number">40%</h2>
+							<p class="issues__bottom-text">plans are 100% guaranteed issue. No medical underwriting required</p>
+						</div>
+						<div class="issues__bottom">
+							<h2 class="issues__bottom-number">0</h2>
+							<p class="issues__bottom-text">Zero limitations or exclusions for pre-existing conditions</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="easy">
+			<div class="container">
+				<div class="easy__inner">
+					<span class="easy__caption caption">for employers</span>
+					<h2 class="easy__title title">Easy enrollment meets simple administration.</h2>
+					<p class="easy__text text">Brella brings 100% paperless implementation, enrollment, and admin. Plug into our platforms or we’ll plug into yours.</p>
+					<a href="">Learn more</a>
+				</div>
+			</div>
+		</section>
+		<section class="proudly">
+			<div class="container">
+				<div class="proudly__inner">
+					<h2 class="proudly__title title">Proudly backed by</h2>
+					<div class="proudly__icons">
+						<img src="images/proudly-icon-brewer.svg" alt="icon">
+						<img src="images/proudly_icon-twosigma.svg" alt="icon">
+						<img src="images/proudly-icon-digitals.svg" alt="icon">
+						<img src="images/proudly-icon-founder.svg" alt="icon">
+						<img src="images/proudly-icon-symphony.svg" alt="icon">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cards">
+			<div class="container">
+				<div class="cards__inner">
+					<div class="cards__card card-1">
+						<img src="./images/image-card1.jpg" alt="image">
+						<span class="cards__caption">Podcast</span>
+						<h3 class="cards__title">Better Voluntary Benefits with NFP Voluntary Benefits Practice Leader, Kim Heald</h3>
+					</div>
+					<div class="cards__card card-2">
+						<img src="./images/image-card2.jpg" alt="image">
+						<span class="cards__caption">Insurance Innovation</span>
+						<h3 class="cards__title">How to Design Simpler Insurance Benefits</h3>
+					</div>
+					<div class="cards__card card-3">
+						<img src="./images/image-card3.jpg" alt="image">
+						<span class="cards__caption">Benefits Strategy</span>
+						<h3 class="cards__title">Executive Benefits Outlook with Dan Aceti</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__title"></div>
+					<div class="footer__links "></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

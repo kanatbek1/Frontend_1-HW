@@ -1,0 +1,518 @@
+@import "vars"
+.menu 
+    min-height: 90px
+    @media (max-width: 1300px)
+
+    &__inner 
+        display: flex
+        justify-content: space-between
+        align-items: center
+        min-height: 90px
+    &__links 
+        display: flex
+        justify-content: space-between
+        width: 600px
+        @media (max-width: 1100px)
+            width: 450px
+        @media (max-width: 900px)
+            display: none
+        &-link
+            font-weight: 700
+            font-size: 14px
+            line-height: 20px
+            color: $generalColor
+    &__btn 
+        width: 137px
+        height: 40px
+        background-color: $sucsessColor
+        border-radius: 6px
+        border: none
+        font-weight: 700
+        font-size: 14px
+        line-height: 20px
+        color: #FFFFFF
+
+.home 
+    min-height: calc(100vh - 100px)
+    background-color: #DDDBCE
+    background-image: url('../images/image-home.jpg')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    @media (max-width: 650px)
+        background: $sucsessColor
+        min-height: 360px
+    &__inner 
+        padding-top: 160px
+        @media (max-width: 650px)
+            padding: 100px 0 57px
+        @media (max-width: 500px)
+            padding-top: 80px
+        @media (max-width: 400px)
+            padding-top: 63px
+    h1 
+        font-family: 'Roboto', sans-serif
+        font-size: 36px
+        line-height: 46px
+        color: $generalColor
+        margin-bottom: 40px
+        width: 516px
+        @media (max-width: 650px)
+            color: #FFFFFF
+        @media (max-width: 550px)
+            width: 450px
+            font-size: 30px
+        @media (max-width: 480px)
+            width: 400px
+            font-size: 26px
+        @media (max-width: 420px)
+            width: 350px
+            font-size: 24px
+            line-height: 30px
+        @media (max-width: 380px)
+            width: 289px
+            font-size: 22px
+            margin-bottom: 59px
+    &__form
+        margin-top: 16px
+    &__input 
+        padding: 20px 
+        width: 280px
+        height: 60px
+        font-weight: 700
+        font-size: 14px
+        line-height: 20px
+        color: #222222
+        background: #FFFFFF
+        border-radius: 6px 0px 0px 6px
+        border: none
+        @media (max-width: 450px)
+            width: 234px
+            height: 50px
+            font-size: 12px
+            padding: 15px 16px
+        &-btn
+            display: inline-block
+            margin-left: -5px
+            height: 60px
+            width: 123px
+            background-color: $sucsessColor
+            border-radius: 0px 6px 6px 0px
+            font-weight: 700
+            font-size: 13px
+            line-height: 20px
+            color: #FFFFFF
+            @media (max-width: 650px)
+                background: #DDDBCE
+                color: $generalColor
+            @media (max-width: 450px)
+                width: 85px
+                height: 50px
+                font-size: 12px
+            a
+                display: block
+                width: 100%
+                height: 100%
+                padding: 21px 35px
+                @media (max-width: 450px)
+                    padding: 15px
+
+.info 
+    margin-top: -85px
+    @media (max-width: 650px)
+        margin-top: 20px
+    &__inner 
+        display: flex
+        justify-content: space-between
+        padding: 50px
+        background-color: #fff
+        box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6)
+        border-radius: 6px
+        @media (max-width: 650px)
+            flex-direction: column
+            padding: 10px
+            gap: 10px
+        @media (max-width: 400px)
+            padding: 0
+    &__icon 
+        @media (max-width: 400px)
+            width: 50px
+    &__item 
+        display: flex
+        align-items: center
+        gap: 10px
+        @media (max-width: 650px)
+            background: #F6ECDD
+            border-radius: 8px
+            padding: 22px 10px
+        @media (max-width: 400px)
+            padding: 22px 20px
+            gap: 25px
+        h6 
+            font-weight: 400
+            font-size: 16px
+            line-height: 24px
+            color: $generalColor
+            margin-bottom: 7px
+        p 
+            font-size: 14px
+            line-height: 20px
+            color: $generalColor
+            width: 267px
+            @media (max-width: 1200px)
+                width:200px
+            @media (max-width: 1000px)
+                width: 160px
+            @media (max-width: 900px)
+                display: none
+            @media (max-width: 650px)
+                display: block
+                width: 400px
+            @media (max-width: 600px)
+                width: 350px
+            @media (max-width: 500px)
+                width: 267px
+            @media (max-width: 400px)
+                display: none
+
+.plan 
+    margin-top: 40px
+    @media (max-width: 800px)
+        margin-top: 58px
+    &__inner 
+        display: flex
+        justify-content: space-between
+        @media (max-width: 800px)
+            flex-direction: column
+        a 
+            font-weight: 700
+            font-size: 18px
+            line-height: 18px
+            letter-spacing: 0.02px
+            color: $generalColor
+            text-decoration: none
+        .right
+            @media (max-width: 800px)
+                display: flex
+                justify-content: center
+            @media (max-width: 550px)
+                display: none
+    &__title
+        @media (max-width: 1100px)
+            font-size: 22px
+            line-height: 30px
+        @media (max-width: 900px)
+            margin: 50px 0
+        @media (max-width: 800px)
+            margin: 20px 0 0
+    &__text
+        @media (max-width: 900px)
+            display: none
+        @media (max-width: 800px)
+            display: inline-block
+            margin: 36px 0 29px
+    &__inner .left,
+    &__inner .right 
+        flex: 0 1 510px
+        @media (max-width: 800px)
+            flex: 0 0 0
+
+.issues 
+    margin-top: 120px
+    @media (max-width: 500px)
+        margin-top: 129px
+    &__inner 
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        gap: 60px
+        @media (max-width: 500px)
+            gap: 39px
+        .right
+            @media (max-width: 1100px)
+                text-align: center
+            @media (max-width: 600px)
+                display: none
+    &__title
+        @media (max-width: 650px)
+            font-size: 22px
+            line-height: 30px
+    &__text 
+        @media (max-width: 500px)
+            margin: 36px 0 0
+    &__inner .left,
+    &__inner .right 
+        flex: 0 1 530px
+        @media (max-width: 1300px)
+            flex: 0 0 400px
+        @media (max-width: 1200px)
+            flex: 0 0 350px
+        @media (max-width: 1100px)
+            flex: 0 0 800px
+        @media (max-width: 900px)
+            flex: 0 0 700px
+        @media (max-width: 800px)
+            flex: 0 0 600px
+        @media (max-width: 650px)
+            flex: 0 0 530px
+        @media (max-width: 550px)
+            flex: 0 0 450px  
+        @media (max-width: 500px)
+            flex: 0 0 350px    
+        @media (max-width: 380px)
+            flex: 0 0 295px
+    &__inner .bottom 
+        display: flex
+        justify-content: space-between
+        @media (max-width: 1100px)
+            gap: 50px
+        @media (max-width: 600px)
+            flex-direction: column
+            flex: 0 0 auto 
+        @media (max-width: 500px)
+            flex: 0 0 319px
+            gap: 22px
+    &__bottom 
+        flex: 0 1 260px
+        @media (max-width: 600px)
+            flex: 0 0 0
+        &-number 
+            font-family: 'Roboto'
+            font-weight: 700
+            font-size: 60px
+            line-height: 78px
+            color: #F0A446
+            margin-bottom: 13px
+            transition: 1000ms
+        &-text 
+            font-family: 'Raleway'
+            font-style: normal
+            font-weight: 700
+            font-size: 13px
+            line-height: 22px
+            letter-spacing: 0.02px
+            color: $generalColor
+    &__bottom:hover .issues__bottom-number
+        transform: scale(1.5)
+
+.easy 
+    min-height: 522px
+    background-image: url(../images/easy-image.jpg)
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    margin-top: 120px
+    @media (max-width: 550px)
+        margin-top: 57px
+    &__inner 
+        padding-top: 114px
+        @media (max-width: 550px)
+            padding: 84px 0 110px
+        a 
+            font-weight: 700
+            font-size: 18px
+            line-height: 18px
+            letter-spacing: 0.02px
+            color: $generalColor
+            text-decoration: none
+    &__title 
+        width: 390px
+        @media (max-width: 550px)
+            width: 171px
+            margin-bottom: 36px
+            font-size: 22px
+            line-height: 30px
+    &__text 
+        width: 490px
+        @media (max-width: 550px)
+            width: 320px
+            margin-bottom: 22px
+            color: #FFFFFF
+            text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+
+.proudly 
+    padding: 129px 0
+    @media (max-width: 900px)
+        padding: 60px 0 0
+    &__title 
+        text-align: center
+        margin: 0 0 110px
+        @media (max-width: 900px)
+            margin: 0 0 36px
+        @media (max-width: 550px)
+            font-size: 22px
+            line-height: 30px
+    &__icons 
+        display: flex
+        justify-content: space-between
+        gap: 30px
+        @media (max-width: 900px)
+            flex-wrap: wrap
+        @media (max-width: 550px)
+            flex-direction: column
+        img 
+            transition: 1000ms
+        img:hover 
+            transform: scale(1.5)
+
+.cards 
+    padding: 120px 0
+    @media (max-width: 550px)
+        padding: 59px 0
+    &__inner 
+        display: flex
+        justify-content: space-between
+        padding: 0 27px
+        @media (max-width: 1300px)
+            gap: 20px
+        @media (max-width: 1200px)
+            flex-wrap: wrap
+            gap: 34px
+        @media (max-width: 900px)
+            justify-content: center
+    &__card 
+        display: flex
+        flex-direction: column
+        img 
+            width: 355px
+            height: 236px
+            @media (max-width: 400px)
+                width: 320px
+                height: 237px
+                object-fit: cover
+    &__caption 
+        font-weight: 400
+        font-size: 11px
+        line-height: 18px
+        letter-spacing: 0.05px
+        text-transform: uppercase
+        color: $sucsessColor
+        margin-top: 20px
+    &__title 
+        font-family: 'Roboto'
+        font-weight: 700
+        font-size: 20px
+        line-height: 26px
+        color: $generalColor
+        width: 342px
+        margin-top:15px
+        @media (max-width: 400px)
+            font-size: 16px
+            line-height: 22px
+            width: 309px
+
+.footer 
+    min-height: 323px
+    background-color: $generalColor
+    padding-top: 64px
+    @media (max-width: 650px)
+        padding: 41px 0 36px
+    &__icon
+        @media (max-width: 650px)
+            margin-bottom: 35px
+    &__inner 
+        display: flex
+        @media (max-width: 1300px)
+            justify-content: space-between
+        @media (max-width: 650px)
+            flex-direction: column
+        .links-1
+            margin: 0 115px 0 105.52px
+            @media (max-width: 1300px)
+                margin: 0
+    &__links
+        min-width: 87px
+        @media (max-width: 1000px)
+            display: none
+        &-title
+            font-weight: 700
+            font-size: 13px
+            line-height: 24px
+            letter-spacing: 0.02px
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-bottom: 15px
+        &-link 
+            font-weight: 400
+            font-size: 16px
+            line-height: 27px
+            color: #FFFFFF
+        &-link:not(last-child)
+            margin-bottom: 15px
+    &__end 
+        margin-left: 370px
+        @media (max-width: 1300px)
+            margin: 0
+        &-title
+            font-weight: 400
+            font-size: 13px
+            line-height: 24px
+            letter-spacing: 0.02px
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-bottom: 19px
+            @media (max-width: 650px)
+                margin-bottom: 20px
+        &-text
+            font-weight: 400
+            font-size: 14px
+            line-height: 24px
+            letter-spacing: 0.02px
+            color: #FFFFFF
+            min-width: 345px
+            margin-bottom: 16px
+            @media (max-width: 650px)
+                margin-bottom: 20px
+            @media (max-width: 380px)
+                min-width: 310px
+    &__form
+        margin-bottom: 30px
+        min-width:370px
+        height: 50px
+        @media (max-width: 650px)
+            margin-bottom: 20px
+        @media (max-width: 400px)
+            min-width: 300px
+        label
+            position: relative
+    &__input
+        min-height: 50px
+        min-width: 305px
+        background-color: inherit
+        border: 1px solid #FFFFFF
+        border-radius: 0
+        padding: 0 21px 0 21px
+        color: #FFFFFF
+        @media (max-width: 400px)
+            min-width: 265px 
+        &-arrow 
+            position: absolute
+            left: 0
+    &__social
+        display: flex
+        gap: 25px
+        @media (max-width: 650px)
+                margin-bottom: 40px
+.privacy
+    display: none
+    @media (max-width: 650px)
+        display: block
+    &__link 
+        font-weight: 400
+        font-size: 14px
+        line-height: 24px
+        letter-spacing: 0.02px
+        color: #FFFFFF
+        margin-bottom: 35px
+        padding-right: 10px
+    p 
+        font-weight: 400
+        font-size: 10px
+        line-height: 24px
+        letter-spacing: 0.02px
+        color: #FFFFFF
+    .team 
+        padding-left: 10px
+        border-left: 1.79px solid #FFFFFF
+    
+    
